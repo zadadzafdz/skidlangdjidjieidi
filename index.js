@@ -108,3 +108,5 @@ bot.on("message", message => {
         return message.channel.send(help_embed)
     }
 })
+
+bot.login(process.env.BOT_TOKEN)
